@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dark Mode Toggle</title>
+</head>
+
+<body style="text-align:center; font-family:Arial">
+
+<h2>Dark Mode Toggle</h2>
+
+<button onclick="toggleMode()">Toggle Dark Mode</button>
+
+<script>
+let dark = localStorage.getItem("darkMode");
+
+if(dark === "enabled"){
+document.body.style.backgroundColor = "black";
+document.body.style.color = "white";
+}
+
+function toggleMode(){
+
+if(localStorage.getItem("darkMode") === "enabled"){
+document.body.style.backgroundColor = "white";
+document.body.style.color = "black";
+localStorage.setItem("darkMode","disabled");
+}
+else{
+document.body.style.backgroundColor = "black";
+document.body.style.color = "white";
+localStorage.setItem("darkMode","enabled");
+}
+
+}
+</script>
+
+</body>
+</html>
