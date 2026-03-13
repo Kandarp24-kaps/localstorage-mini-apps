@@ -7,7 +7,7 @@
 
 body{
 font-family:Arial;
-background:#f4f4f4;
+background:#bd7878;
 padding:20px;
 }
 
@@ -30,12 +30,12 @@ margin:6px 0;
 }
 
 .ai{
-color:green;
+color:rgb(3, 5, 3);
 margin:6px 0;
 }
 
 .loading{
-color:gray;
+color:rgb(51, 41, 41);
 font-style:italic;
 }
 
@@ -63,9 +63,10 @@ margin-left:5px;
 <button onclick="sendMessage()">Send</button>
 <button onclick="clearChat()">Clear</button>
 
+<script src="config.js"></script>
 <script>
-
-const API_KEY = "AIzaSyC2nCvurgaDm1vYTftXkf0f9EtaYnswX9E"       
+const API_KEY = CONFIG.API_KEY;
+    
 
 const chatBox = document.getElementById("chatBox")
 const input = document.getElementById("userInput")
