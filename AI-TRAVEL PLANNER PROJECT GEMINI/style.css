@@ -1,0 +1,89 @@
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+margin:0;
+padding:0;
+text-align:center;
+}
+
+h1{
+color:white;
+margin-top:40px;
+}
+
+.container{
+width:420px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+input{
+width:90%;
+padding:12px;
+margin:10px;
+border-radius:8px;
+border:1px solid #ccc;
+font-size:15px;
+}
+
+button{
+padding:12px 20px;
+background:#4facfe;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+margin-top:10px;
+}
+
+button:hover{
+background:#2e8bff;
+}
+
+#loading{
+display:none;
+margin-top:15px;
+color:#666;
+font-style:italic;
+}
+
+#result{
+margin-top:20px;
+text-align:left;
+}
+
+.plan-card{
+background:#f9f9f9;
+padding:15px;
+border-radius:10px;
+margin-top:10px;
+border-left:5px solid #4facfe;
+}
+
+.day{
+font-weight:bold;
+margin-top:10px;
+}
+.plan-card{
+background:#ffffff;
+padding:20px;
+border-radius:12px;
+margin-top:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+border-left:5px solid #4facfe;
+}
+
+.plan-content{
+line-height:1.6;
+font-size:15px;
+color:#333;
+}
+
+.plan-content h3{
+color:#4facfe;
+margin-top:15px;
+}
